@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace ExtendedTypes\IntegerTypes;
 
+use ExtendedTypes\Interfaces\NumericTypeInterface;
 use InvalidArgumentException;
 
 readonly class Port implements NumericTypeInterface

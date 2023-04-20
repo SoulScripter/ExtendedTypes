@@ -2,9 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExtendedTypes\StringTypes\Protocol;
-
-use ExtendedTypes\StringTypes\StringTypeInterface;
+namespace ExtendedTypes\Interfaces;
 
 interface ProtocolInterface extends StringTypeInterface
 {

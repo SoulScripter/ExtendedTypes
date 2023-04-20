@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace ExtendedTypes\StringTypes\Protocol;
 
 use ExtendedTypes\Exceptions\MethodNotImplementedException;
+use ExtendedTypes\Interfaces\ProtocolInterface;
 
 abstract readonly class AbstractProtocol implements ProtocolInterface
 {

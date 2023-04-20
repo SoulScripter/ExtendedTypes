@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace ExtendedTypes\StringTypes\User;
 
-use ExtendedTypes\StringTypes\StringTypeInterface;
+use ExtendedTypes\Interfaces\StringTypeInterface;
 
 readonly class Password implements StringTypeInterface
 {
@@ -12,7 +12,7 @@ readonly class Password implements StringTypeInterface
     {
     }
 
-    public static function createFromString(string $string): StringTypeInterface
+    public static function createFromString(string $string): self
     {
         return new self($string);
     }

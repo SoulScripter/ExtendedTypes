@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExtendedTypes\StringTypes;
+namespace ExtendedTypes\Interfaces;
 
 use Stringable;
 
