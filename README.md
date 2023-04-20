@@ -8,7 +8,10 @@
   - MySQL
   - PostgreSQL
 - #### Password
-- #### Username
+
+- #### Identifier
+  - Identifier
+  - Username
 
 ### Numeric types:
 
