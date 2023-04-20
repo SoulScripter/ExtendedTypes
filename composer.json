@@ -1,0 +1,19 @@
+{
+    "name": "soulscripter/extended-types",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Soulscripter\\ExtendedTypes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SoulScripter",
+            "email": "denis.lissek.coding@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.16",
+        "phpunit/phpunit": "^10.1"
+    }
+}
