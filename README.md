@@ -5,3 +5,4 @@
 ### String types:
 
 - #### Protocol
+    - MySQL
