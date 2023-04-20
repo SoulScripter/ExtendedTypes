@@ -7,3 +7,8 @@
 - #### Protocol
   - MySQL
   - PostgreSQL
+- #### Password
+
+### Numeric types:
+
+- #### Port
