@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace ExtendedTypes\StringTypes\Protocol;
 
-readonly class PostgreSQL extends AbstractProtocol
+use ExtendedTypes\Interfaces\DatabaseProtocolInterface;
+
+readonly class PostgreSQL extends AbstractProtocol implements DatabaseProtocolInterface
 {
     private const TYPE = 'postgres';
 

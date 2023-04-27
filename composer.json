@@ -3,7 +3,8 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Soulscripter\\ExtendedTypes\\": "src/"
+            "ExtendedTypes\\": "src/",
+            "ExtendedTypes\\Tests\\": "tests"
         }
     },
     "authors": [
@@ -15,5 +16,10 @@
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.16",
         "phpunit/phpunit": "^10.1"
+    },
+    "config": {
+        "platform": {
+            "php": "8.2.0"
+        }
     }
 }

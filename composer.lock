@@ -1,20 +1,20 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "76e432e86522be5117c0886aa7d9a892",
-    "packages": [],
-    "packages-dev": [
-        {
-            "name": "composer/pcre",
-            "version": "3.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/composer/pcre.git",
-                "reference": "4bff79ddd77851fe3cdd11616ed3f92841ba5bd2"
-            },
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "3f4003d836ccd99167bbee15db1d834d",
+  "packages": [],
+  "packages-dev": [
+    {
+      "name": "composer/pcre",
+      "version": "3.1.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/composer/pcre.git",
+        "reference": "4bff79ddd77851fe3cdd11616ed3f92841ba5bd2"
+      },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/composer/pcre/zipball/4bff79ddd77851fe3cdd11616ed3f92841ba5bd2",
@@ -1019,20 +1019,20 @@
             ],
             "time": "2023-02-03T06:57:52+00:00"
         },
-        {
-            "name": "phpunit/phpunit",
-            "version": "10.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "0d9401b7e8245d71079e249e3cb868e9d2337887"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0d9401b7e8245d71079e249e3cb868e9d2337887",
-                "reference": "0d9401b7e8245d71079e249e3cb868e9d2337887",
-                "shasum": ""
-            },
+    {
+      "name": "phpunit/phpunit",
+      "version": "10.1.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/sebastianbergmann/phpunit.git",
+        "reference": "6f0cd95be71add539f8fd2be25b2a4a29789000b"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6f0cd95be71add539f8fd2be25b2a4a29789000b",
+        "reference": "6f0cd95be71add539f8fd2be25b2a4a29789000b",
+        "shasum": ""
+      },
             "require": {
                 "ext-dom": "*",
                 "ext-json": "*",
@@ -1102,7 +1102,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.1.1"
+              "source": "https://github.com/sebastianbergmann/phpunit/tree/10.1.2"
             },
             "funding": [
                 {
@@ -1118,7 +1118,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-17T12:17:05+00:00"
+      "time": "2023-04-22T07:38:19+00:00"
         },
         {
             "name": "psr/cache",
@@ -3585,15 +3585,18 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-28T10:34:58+00:00"
+          "time": "2021-07-28T10:34:58+00:00"
         }
-    ],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+  ],
+  "aliases": [],
+  "minimum-stability": "stable",
+  "stability-flags": [],
+  "prefer-stable": false,
+  "prefer-lowest": false,
+  "platform": [],
+  "platform-dev": [],
+  "platform-overrides": {
+    "php": "8.2.0"
+  },
+  "plugin-api-version": "2.2.0"
 }

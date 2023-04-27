@@ -7,11 +7,8 @@ namespace ExtendedTypes\IntegerTypes;
 use ExtendedTypes\Interfaces\NumericTypeInterface;
 use InvalidArgumentException;
 
-readonly class Port implements NumericTypeInterface
+readonly class Version implements NumericTypeInterface
 {
-    private const MIN = '0';
-
-    private const MAX = '65535';
 
     private function __construct(private string $numeric)
     {
@@ -32,14 +29,6 @@ readonly class Port implements NumericTypeInterface
     {
         if (!is_numeric($numeric)) {
             throw new InvalidArgumentException('Given string is not numeric: ' . $numeric);
-        }
-
-        if (!((float)self::MIN <= (float)$numeric)) {
-            throw new InvalidArgumentException('Given numeric is below the given minimum: ' . self::MIN . ' > ' . $numeric);
-        }
-
-        if (!((float)self::MAX <= (float)$numeric)) {
-            throw new InvalidArgumentException('Given numeric is above the given maximum: ' . self::MAX . ' > ' . $numeric);
         }
     }
 

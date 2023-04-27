@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace ExtendedTypes\StringTypes\Protocol;
 
-readonly class MySQL extends AbstractProtocol
+use ExtendedTypes\Interfaces\DatabaseProtocolInterface;
+
+readonly class MySQL extends AbstractProtocol implements DatabaseProtocolInterface
 {
     private const TYPE = 'mysql';
 
